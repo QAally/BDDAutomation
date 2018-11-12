@@ -10,7 +10,7 @@ namespace EAAutoFramework.Base
         public Base(ParallelConfig parellelConfig)
         {
             _parallelConfig = parellelConfig;
-        }
+        } 
 
         protected TPage GetInstance<TPage>() where TPage : BasePage, new()
         {
